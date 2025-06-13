@@ -1,0 +1,53 @@
+﻿
+@if (connectedUsers is not null && connectedUsers.Count > 0)
+{
+    @foreach (var user in connectedUsers)
+    {
+        @if (user.UserId != this.LogOnUserId)
+        {
+            var unreadMessages = user.Messages.Count(m => m.Unread == true && m.FromUserId != this.LogOnUserId);
+
+            <tr style="cursor: pointer; height: 30px;" @key="user.ConnectionId" @onclick=" async ()=> await SelectUser(user.ConnectionId)">
+                <td>
+                    @user.UserName
+                </td>
+                <td>
+                    @if (unreadMessages > 0)
+                    {
+                        <div class="unread-indicator">@unreadMessages</div>    
+                    }
+                </td>
+            </tr>
+        }
+    }
+}
+
+@code {
+    [Parameter]
+    public List<ConnectedUser>? connectedUsers { get; set; }
+
+    [Parameter]
+    public string? LogOnUserId { get; set; }
+
+    [Parameter]
+    public EventCallback<ConnectedUser> OnUserSelected { get; set; } 
+
+    public async Task SelectUser(string? connectionId)
+    {
+        var targetUser = connectedUsers?.FirstOrDefault(u => u.ConnectionId == connectionId);
+
+        if (targetUser is not null)
+        {
+            targetUser.Messages.ForEach(m => m.Unread = false);
+            await OnUserSelected.InvokeAsync(targetUser);
+        }
+    }
+
+    public void ClearUnreadMessageCount(string userId)
+    {
+        this.connectedUsers?.FirstOrDefault(u => u.UserId == userId)?.Messages
+        .ForEach(m => m.Unread = false);
+
+        StateHasChanged();
+    }
+}
