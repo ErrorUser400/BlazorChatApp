@@ -1,0 +1,2 @@
+C:\Users\bensa\Documents\personal_site\SignalRChatApp\BlazorChatApp\BlazorChatApp.Client\wwwroot\appsettings.Development.json
+C:\Users\bensa\Documents\personal_site\SignalRChatApp\BlazorChatApp\BlazorChatApp.Client\wwwroot\appsettings.json

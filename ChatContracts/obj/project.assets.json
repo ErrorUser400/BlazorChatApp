@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bensa\\Documents\\personal_site\\SignalRChatApp\\ChatContracts\\ChatContracts.csproj",
+      "projectUniqueName": "C:\\Users\\bensa\\OneDrive\\Documents\\GitHub\\BlazorChatApp\\ChatContracts\\ChatContracts.csproj",
       "projectName": "ChatContracts",
-      "projectPath": "C:\\Users\\bensa\\Documents\\personal_site\\SignalRChatApp\\ChatContracts\\ChatContracts.csproj",
+      "projectPath": "C:\\Users\\bensa\\OneDrive\\Documents\\GitHub\\BlazorChatApp\\ChatContracts\\ChatContracts.csproj",
       "packagesPath": "C:\\Users\\bensa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bensa\\Documents\\personal_site\\SignalRChatApp\\ChatContracts\\obj\\",
+      "outputPath": "C:\\Users\\bensa\\OneDrive\\Documents\\GitHub\\BlazorChatApp\\ChatContracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -73,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

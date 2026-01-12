@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DSEQLIDhFgs=",
+  "dgSpecHash": "1Wq5035tKvQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bensa\\Documents\\personal_site\\SignalRChatApp\\BlazorChatApp\\BlazorChatApp\\BlazorChatApp.csproj",
+  "projectFilePath": "C:\\Users\\bensa\\OneDrive\\Documents\\GitHub\\BlazorChatApp\\BlazorChatApp\\BlazorChatApp\\BlazorChatApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bensa\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.5\\microsoft.aspnetcore.authorization.9.0.5.nupkg.sha512",
     "C:\\Users\\bensa\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.5\\microsoft.aspnetcore.components.9.0.5.nupkg.sha512",

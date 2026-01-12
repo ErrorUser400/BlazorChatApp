@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VNe3g6EWTJ8=",
+  "dgSpecHash": "SgkQiQ0C5mQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bensa\\Documents\\personal_site\\SignalRChatApp\\BlazorChatApp\\BlazorChatApp.Client\\BlazorChatApp.Client.csproj",
+  "projectFilePath": "C:\\Users\\bensa\\OneDrive\\Documents\\GitHub\\BlazorChatApp\\BlazorChatApp\\BlazorChatApp.Client\\BlazorChatApp.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bensa\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.5\\microsoft.aspnetcore.authorization.9.0.5.nupkg.sha512",
     "C:\\Users\\bensa\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.5\\microsoft.aspnetcore.components.9.0.5.nupkg.sha512",
@@ -35,11 +35,11 @@
     "C:\\Users\\bensa\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.5\\microsoft.extensions.primitives.9.0.5.nupkg.sha512",
     "C:\\Users\\bensa\\.nuget\\packages\\microsoft.jsinterop\\9.0.5\\microsoft.jsinterop.9.0.5.nupkg.sha512",
     "C:\\Users\\bensa\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.5\\microsoft.jsinterop.webassembly.9.0.5.nupkg.sha512",
-    "C:\\Users\\bensa\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.6\\microsoft.net.illink.tasks.9.0.6.nupkg.sha512",
-    "C:\\Users\\bensa\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.6\\microsoft.net.sdk.webassembly.pack.9.0.6.nupkg.sha512",
+    "C:\\Users\\bensa\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.11\\microsoft.net.illink.tasks.9.0.11.nupkg.sha512",
+    "C:\\Users\\bensa\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.1\\microsoft.net.sdk.webassembly.pack.10.0.1.nupkg.sha512",
     "C:\\Users\\bensa\\.nuget\\packages\\system.net.serversentevents\\9.0.5\\system.net.serversentevents.9.0.5.nupkg.sha512",
     "C:\\Users\\bensa\\.nuget\\packages\\system.threading.channels\\9.0.5\\system.threading.channels.9.0.5.nupkg.sha512",
-    "C:\\Users\\bensa\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.6\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.6.nupkg.sha512"
+    "C:\\Users\\bensa\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.11.nupkg.sha512"
   ],
   "logs": []
 }

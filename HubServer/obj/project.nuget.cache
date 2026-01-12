@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OOjQZkEScfM=",
+  "dgSpecHash": "HbSVkBhRQN0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bensa\\Documents\\personal_site\\SignalRChatApp\\HubServer\\HubServer.csproj",
+  "projectFilePath": "C:\\Users\\bensa\\OneDrive\\Documents\\GitHub\\BlazorChatApp\\HubServer\\HubServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bensa\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\bensa\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.3.0\\microsoft.aspnetcore.authorization.2.3.0.nupkg.sha512",
