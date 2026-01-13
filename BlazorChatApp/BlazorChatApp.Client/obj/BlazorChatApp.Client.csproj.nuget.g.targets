@@ -6,5 +6,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\9.0.5\buildTransitive\net8.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\9.0.5\buildTransitive\net8.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.binder\9.0.5\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.binder\9.0.5\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers\9.0.5\buildTransitive\netstandard2.0\Microsoft.AspNetCore.Components.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers\9.0.5\buildTransitive\netstandard2.0\Microsoft.AspNetCore.Components.Analyzers.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.app.internal.assets\10.0.1\buildTransitive\Microsoft.AspNetCore.App.Internal.Assets.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.app.internal.assets\10.0.1\buildTransitive\Microsoft.AspNetCore.App.Internal.Assets.targets')" />
   </ImportGroup>
 </Project>

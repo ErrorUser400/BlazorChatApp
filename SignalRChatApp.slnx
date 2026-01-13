@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BlazorChatApp/BlazorChatApp.Client/BlazorChatApp.Client.csproj" />
+  <Project Path="BlazorChatApp/BlazorChatApp/BlazorChatApp.csproj" />
+  <Project Path="ChatContracts/ChatContracts.csproj" />
+  <Project Path="HubServer/HubServer.csproj" />
+</Solution>
